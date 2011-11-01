@@ -1,0 +1,19 @@
+*******************************************************************
+* DAX10Gateway                                                    *
+* Version:  1.0                                                   *
+* Author: Donn O'Malley                                           *
+* Created: 2010                                                   *
+* Last Revision: 1.0 (Initial Release)                            *
+*                                                                 *
+* Description:                                                    *
+*   - Sketch for the Arduino + Ethernet shield + X10Firecracker.  *
+*     The DAX10Gateway provides a simple webserver on ports 80    *
+*     And 8080 for supporting a simple browser interface as well  *
+*     As a more feature-rich Android client. The HTTP requests    *
+*     Are parsed and converted to X10 Firecracker Commands. These *
+*     Commands are sent out via digital pins and the X10          *
+*     Firecracker sends out the X10 commands via RF               *
+*                                                                 *
+* Notes:                                                          *
+*   - Only Supports 1 connection at a time                        *
+*******************************************************************
